@@ -175,7 +175,7 @@ article {
   padding: 15px
 }
 .sidebar.active {
-  max-height: 600px
+  max-height: 700px
 }
 .sidebar.active .info-more-icon {
   -webkit-transform: rotate(-.5turn);
