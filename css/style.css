@@ -20,6 +20,65 @@
   min-width: 0;
   grid-column: 3/4
 }
+.button {
+  position: relative;
+  padding: 15px 30px;
+  color: #fff;
+  border: none;
+  background: rgba(255,255,255,.08);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3),inset 0 0 0 1px rgba(255,255,255,.15);
+  overflow: hidden;
+  transition: all .4s cubic-bezier(.4,0,.2,1);
+  font-family: Arial,sans-serif;
+  letter-spacing: .5px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: center
+}
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);
+  transition: .5s
+}
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center,rgba(255,255,255,.1) 0,transparent 70%);
+  opacity: 0;
+  transition: opacity .4s ease
+}
+.button:hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
+  background: rgba(255,255,255,.15);
+  box-shadow: 0 15px 30px rgba(0,0,0,.15),inset 0 0 0 1px rgba(255,255,255,.2);
+  letter-spacing: 1.5px
+}
+.button:hover::before {
+  left: 100%
+}
+.button:hover::after {
+  opacity: 1
+}
+.button:active {
+  -webkit-transform: translateY(1px) scale(.98);
+  transform: translateY(1px) scale(.98);
+  box-shadow: 0 5px 14px rgba(255,255,255,.12),inset 0 0 0 1px rgba(255,255,255,.15);
+  background: rgba(255,255,255,.2)
+}
+.button span {
+  position: relative;
+  z-index: 1;
+  font-weight: 500
+}
 .ibg {
   width: 100%;
   height: 100%;
@@ -615,6 +674,24 @@ article.active {
   top: 0;
   color: #ffdb70;
   line-height: 1.4
+}
+.last-projects {
+  margin-bottom: 35px
+}
+.last-projects-title {
+  margin-bottom: 20px
+}
+.last-projects .last-projects-list {
+  margin-bottom: 20px
+}
+.last-projects .last-projects-list .project-item {
+  display: block
+}
+.last-projects-button {
+  margin-inline: auto
+}
+.last-projects-button:not(:last-child) {
+  margin-bottom: 20px
 }
 .testimonials {
   margin-bottom: 35px
@@ -1365,6 +1442,9 @@ textarea.form-input::-webkit-realizer {
   .service-content-box {
     text-align: left
   }
+  .last-projects {
+    margin-bottom: 40px
+  }
   .testimonials {
     margin-bottom: 40px
   }
@@ -1611,6 +1691,9 @@ textarea.form-input::-webkit-realizer {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px
   }
+  .last-projects .last-projects-list {
+    margin-bottom: 33px
+  }
   .clients-item {
     min-width: calc(25% - 15px)
   }
@@ -1705,6 +1788,11 @@ textarea.form-input::-webkit-realizer {
     margin: 0 -30px;
     padding: 40px;
     scroll-padding-inline: 40px
+  }
+}
+@media (max-width:579.98px) {
+  .button {
+    width: 100%
   }
 }
 @media (max-width:579px) {
