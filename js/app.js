@@ -298,15 +298,17 @@
     }));
     const navigationLinks = document.querySelectorAll("[data-nav-link]");
     const pages = document.querySelectorAll("[data-page]");
-    for (let i = 0; i < navigationLinks.length; i++) navigationLinks[i].addEventListener("click", (function() {
-        for (let i = 0; i < pages.length; i++) if (this.innerHTML.toLowerCase() == pages[i].dataset.page) {
-            pages[i].classList.add("active");
-            navigationLinks[i].classList.add("active");
+    navigationLinks.forEach((link => {
+        link.addEventListener("click", (function() {
+            const targetPage = this.dataset.target || this.innerHTML.toLowerCase();
+            pages.forEach((page => {
+                page.classList.toggle("active", page.dataset.page === targetPage);
+            }));
+            navigationLinks.forEach((nav => {
+                nav.classList.toggle("active", nav.dataset.target === targetPage || nav.innerHTML.toLowerCase() === targetPage);
+            }));
             window.scrollTo(0, 0);
-        } else {
-            pages[i].classList.remove("active");
-            navigationLinks[i].classList.remove("active");
-        }
+        }));
     }));
     document.addEventListener("DOMContentLoaded", (function() {
         const storedLang = localStorage.getItem("userLanguage");
