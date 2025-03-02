@@ -1052,7 +1052,6 @@ article.active {
   color: var(--light-gray);
   font-size: var(--fs6);
   font-weight: var(--fw300);
-  text-transform: capitalize;
   width: 100%;
   padding: 8px 10px;
   border-radius: 8px
@@ -1169,7 +1168,6 @@ article.active {
   color: var(--white2);
   font-size: var(--fs5);
   font-weight: var(--fw400);
-  text-transform: capitalize;
   line-height: 1.3
 }
 .project-category {
@@ -1261,7 +1259,6 @@ textarea.form-input::-webkit-realizer {
   padding: 13px 20px;
   border-radius: 14px;
   font-size: var(--fs6);
-  text-transform: capitalize;
   box-shadow: var(--shadow3);
   z-index: 1;
   transition: var(--transition1)
