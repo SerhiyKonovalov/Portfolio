@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Serhiy Konovalov">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250301211932">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250302125716">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicons/favicon-16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicons/favicon-32x32.webp">
@@ -51,10 +51,10 @@
 					</div>
 
 					<div class="sidebar-actions">
-						<div class="sidebar-actions__dark-light">
-							<button type="button" class="sidebar-actions__theme"></button>
-							<button type="button" class="sidebar-actions__reset"></button>
-						</div>
+						<!-- <div class="sidebar-actions__dark-light">
+							<button type="button" class="sidebar-actions__theme" aria-label="button theme"></button>
+							<button type="button" class="sidebar-actions__reset" aria-label="button theme reset"></button>
+						</div> -->
 						<div class="sidebar-actions__languages">
 							<a href="/uk" class="sidebar-actions__language" title="Ukrainian language">
 								<img src="img/icons/flag-ua.svg" alt="Ukraine flag">
@@ -314,19 +314,19 @@
 						<div class="overlay " data-overlay></div>
 
 						<section class="testimonials-modal">
-							<button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+							<button class="modal-close-btn" data-modal-close-btn aria-label="close modal window"><ion-icon name="close-outline"></ion-icon></button>
 
 							<div class="modal-img-wrapper">
 								<figure class="modal-avatar-box">
-									<img src="" alt="avatar" width="80" height="80" data-modal-img>
+									<img src="img/feedbacks/user-avatar.webp" alt="avatar" width="80" height="80" data-modal-img>
 								</figure>
 
 								<img src="img/icons/quote.svg" alt="quote icon">
 							</div>
 
 							<div class="modal-content">
-								<h4 class="h3 modal-title" data-modal-title></h4>
-								<time datetime="" data-modal-date></time>
+								<h3 class="h3 modal-title" data-modal-title></h3>
+								<time datetime="2025-01-01" data-modal-date></time>
 
 								<div class="modal-text" data-modal-text>
 									<p></p>
@@ -523,11 +523,11 @@
 
 						<div class="filter-select-box">
 							<button class="filter-select " data-select>
-								<div class="select-value" data-select-value>Select Category</div>
+								<span class="select-value" data-select-value>Select Category</span>
 
-								<div class="select-icon">
+								<span class="select-icon">
 									<ion-icon name="chevron-down"></ion-icon>
-								</div>
+								</span>
 							</button>
 
 							<ul class="select-list">
@@ -569,9 +569,9 @@
 										<div class="project-item-icon-box">
 											<img src="img/icons/eye.svg" alt="eye icon">
 										</div>
-										<img src="img/portfolio/nltu-design.webp" alt="NLTU department of Design" loading="lazy">
+										<img src="img/portfolio/nltu-design.webp" alt="NLTU Department of Design" loading="lazy">
 									</figure>
-									<h3 class="project-title">NLTU department of Design</h3>
+									<h3 class="project-title">NLTU Department of Design</h3>
 									<p class="project-category">Corporate</p>
 								</a>
 							</li>
@@ -668,18 +668,18 @@
 						<h2 class="h2 article-title">Contact</h2>
 					</header>
 
-					<section class="mapbox" data-mapbox>
+					<div class="mapbox" data-mapbox>
 						<figure>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83167.66148302481!2d23.49162330394466!3d49.352348784593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a4ea312a96935%3A0x9a7037350ab28ee5!2sDrohobych%2C%20Lviv%20Oblast%2C%2082100!5e0!3m2!1sen!2sua!4v1739545027248!5m2!1sen!2sua" loading="lazy"></iframe>
 						</figure>
-					</section>
+					</div>
 
 					<section class="contact-form">
 						<h3 class="h3 form-title">Contact Form</h3>
 
 						<form name="contact" method="POST" class="form" data-form netlify>
 							<div class="input-wrapper">
-								<input type="text" name="name" class="form-input" placeholder="Your name" required data-form-input>
+								<input type="text" name="name" class="form-input" placeholder="Your Name" required data-form-input>
 								<input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
 							</div>
 
@@ -695,9 +695,9 @@
 			</div>
 		</main>
 	</div>
-	<script src="js/app.min.js?_v=20250301211932"></script>
-	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js?_v=20250301211932"></script>
-	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js?_v=20250301211932"></script>
+	<script src="js/app.min.js?_v=20250302125716"></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js?_v=20250302125716"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js?_v=20250302125716"></script>
 </body>
 
 </html>
