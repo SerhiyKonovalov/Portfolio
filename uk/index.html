@@ -50,10 +50,6 @@
 					</div>
 
 					<div class="sidebar-actions">
-						<div class="sidebar-actions__dark-light">
-							<button type="button" class="sidebar-actions__theme"></button>
-							<button type="button" class="sidebar-actions__reset"></button>
-						</div>
 						<div class="sidebar-actions__languages">
 							<a href="/en" class="sidebar-actions__language" title="Англійська мова">
 								<img src="../img/icons/flag-us.svg" alt="прапор США">
@@ -207,7 +203,7 @@
 								<a href="https://zamok-panorama.com/" target="_blank">
 									<figure class="project-img">
 										<div class="project-item-icon-box">
-											<img src="../img/icons/eye.svg" alt="eye icon">
+											<img src="../img/icons/eye.svg" alt="іконка ока">
 										</div>
 										<img src="../img/portfolio/zamok-panoramnuy.webp" alt="Замок Панорамний" loading="lazy">
 									</figure>
@@ -219,7 +215,7 @@
 								<a href="https://serhiykonovalov.github.io/Growfy/home.html" target="_blank">
 									<figure class="project-img">
 										<div class="project-item-icon-box">
-											<img src="../img/icons/eye.svg" alt="eye icon">
+											<img src="../img/icons/eye.svg" alt="іконка ока">
 										</div>
 										<img src="../img/portfolio/growfy.webp" alt="Growfy" loading="lazy">
 									</figure>
@@ -231,7 +227,7 @@
 								<a href="https://serhiykonovalov.github.io/FarmVest/home.html" target="_blank">
 									<figure class="project-img">
 										<div class="project-item-icon-box">
-											<img src="../img/icons/eye.svg" alt="eye icon">
+											<img src="../img/icons/eye.svg" alt="іконка ока">
 										</div>
 										<img src="../img/portfolio/farm-vest.webp" alt="FarmVest" loading="lazy">
 									</figure>
@@ -253,7 +249,7 @@
 							<li class="testimonials-item">
 								<div class="content-card" title="Read more" data-testimonials-item>
 									<figure class="testimonials-avatar-box">
-										<img src="../img/feedbacks/man-01.webp" alt="avatar" data-testimonials-avatar width="60" height="60">
+										<img src="../img/feedbacks/man-01.webp" alt="аватарка" data-testimonials-avatar width="60" height="60">
 									</figure>
 
 									<h4 class="h4 testimonials-item-title" data-testimonials-title>Анатолій</h4>
@@ -267,7 +263,7 @@
 							<li class="testimonials-item">
 								<div class="content-card" title="Read more" data-testimonials-item>
 									<figure class="testimonials-avatar-box">
-										<img src="../img/feedbacks/man-02.webp" alt="avatar" data-testimonials-avatar width="60" height="60">
+										<img src="../img/feedbacks/man-02.webp" alt="аватарка" data-testimonials-avatar width="60" height="60">
 									</figure>
 
 									<h4 class="h4 testimonials-item-title" data-testimonials-title>Роман</h4>
@@ -281,7 +277,7 @@
 							<li class="testimonials-item">
 								<div class="content-card" title="Read more" data-testimonials-item>
 									<figure class="testimonials-avatar-box">
-										<img src="../img/feedbacks/woman-01.webp" alt="avatar" data-testimonials-avatar width="60" height="60">
+										<img src="../img/feedbacks/woman-01.webp" alt="аватарка" data-testimonials-avatar width="60" height="60">
 									</figure>
 
 									<h4 class="h4 testimonials-item-title" data-testimonials-title>Ольга</h4>
@@ -295,7 +291,7 @@
 							<li class="testimonials-item">
 								<div class="content-card" title="Read more" data-testimonials-item>
 									<figure class="testimonials-avatar-box">
-										<img src="../img/feedbacks/man-03.webp" alt="avatar" data-testimonials-avatar width="60" height="60">
+										<img src="../img/feedbacks/man-03.webp" alt="аватарка" data-testimonials-avatar width="60" height="60">
 									</figure>
 
 									<h4 class="h4 testimonials-item-title" data-testimonials-title>Іван</h4>
@@ -313,19 +309,19 @@
 						<div class="overlay " data-overlay></div>
 
 						<section class="testimonials-modal">
-							<button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+							<button class="modal-close-btn" data-modal-close-btn aria-label="закрити модальне вікно"><ion-icon name="close-outline"></ion-icon></button>
 
 							<div class="modal-img-wrapper">
 								<figure class="modal-avatar-box">
-									<img src="" alt="avatar" width="80" height="80" data-modal-img>
+									<img src="../img/feedbacks/user-avatar.webp" alt="аватарка" width="80" height="80" data-modal-img>
 								</figure>
 
 								<img src="../img/icons/quote.svg" alt="іконка цитати">
 							</div>
 
 							<div class="modal-content">
-								<h4 class="h3 modal-title" data-modal-title></h4>
-								<time datetime="" data-modal-date></time>
+								<h3 class="h3 modal-title" data-modal-title></h3>
+								<time datetime="2025-01-01" data-modal-date></time>
 
 								<div class="modal-text" data-modal-text>
 									<p></p>
@@ -491,11 +487,11 @@
 
 						<div class="filter-select-box">
 							<button class="filter-select " data-select>
-								<div class="select-value" data-select-value>Виберіть категорію</div>
+								<span class="select-value" data-select-value>Виберіть категорію</span>
 
-								<div class="select-icon">
+								<span class="select-icon">
 									<ion-icon name="chevron-down"></ion-icon>
-								</div>
+								</span>
 							</button>
 
 							<ul class="select-list">
@@ -636,11 +632,11 @@
 						<h2 class="h2 article-title">Зв'язатися</h2>
 					</header>
 
-					<section class="mapbox" data-mapbox>
+					<div class="mapbox" data-mapbox>
 						<figure>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83156.52845791132!2d23.509134271645813!3d49.35892720946343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a4ea312a96935%3A0x9a7037350ab28ee5!2z0JTRgNC-0LPQvtCx0LjRhywg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MjEwMA!5e0!3m2!1suk!2sua!4v1739533600720!5m2!1suk!2sua" loading="lazy"></iframe>
 						</figure>
-					</section>
+					</div>
 
 					<section class="contact-form">
 						<h3 class="h3 form-title">Контактна форма</h3>
