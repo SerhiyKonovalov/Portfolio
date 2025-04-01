@@ -999,7 +999,12 @@ article.active {
   text-align: justify
 }
 .timeline-text a {
-  display: inline-block
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: var(--light-gray)
+}
+.timeline-text a:hover {
+  text-decoration-color: transparent
 }
 .skills-title {
   margin-bottom: 20px
