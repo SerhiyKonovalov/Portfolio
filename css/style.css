@@ -1,5 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600&display=swap);
 /*! tailwindcss v4.0.5 | MIT License | https://tailwindcss.com */
+@font-face {
+  font-family: icons;
+  font-display: swap;
+  src: url(../fonts/icons.woff2) format("woff2"),url(../fonts/icons.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+[class*=_icon-]::before {
+  font-family: icons;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+[class*=_icon-]::before {
+  display: block
+}
+._icon-cross::before {
+  content: ""
+}
+._icon-send::before {
+  content: ""
+}
+._icon-arrow::before {
+  content: ""
+}
 .lock body {
   overflow: hidden;
   touch-action: none;
@@ -497,6 +526,9 @@ article.active {
 .info-more-icon {
   transition: all .3s
 }
+.info-more-icon::before {
+  font-size: .875rem
+}
 .sidebar-info-more {
   opacity: 0;
   visibility: hidden;
@@ -828,13 +860,13 @@ article.active {
   opacity: .7;
   transition: all .2s
 }
+.modal-close-btn::before {
+  font-size: 1.375rem
+}
 .modal-close-btn:focus,
 .modal-close-btn:hover {
   opacity: 1;
   color: #fd3636
-}
-.modal-close-btn ion-icon {
-  --ionicon-stroke-width: 50px
 }
 .modal-avatar-box {
   background: var(--bg-gradient-onyx);
@@ -1272,8 +1304,8 @@ textarea.form-input::-webkit-realizer {
   z-index: -1;
   transition: var(--transition1)
 }
-.form-btn ion-icon {
-  font-size: 16px
+.form-btn i::before {
+  font-size: 1.375rem
 }
 .form-btn:hover {
   background: var(--bg-gradient-yellow1)
@@ -1565,6 +1597,33 @@ textarea.form-input::-webkit-realizer {
   .form-btn ion-icon {
     font-size: 18px
   }
+  .filter-select-box {
+    display: none
+  }
+  .filter-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    padding-left: 5px;
+    margin-bottom: 30px
+  }
+  .filter-item button {
+    color: var(--light-gray);
+    font-size: var(--fs5);
+    transition: var(--transition1);
+    text-decoration: underline;
+    text-decoration-color: transparent
+  }
+  .filter-item button:focus,
+  .filter-item button:hover {
+    color: #fff;
+    text-decoration-color: #fff
+  }
+  .filter-item button.active {
+    color: var(--orange-yellow-crayola);
+    text-decoration: none
+  }
 }
 @media (min-width:768px) {
   .sidebar,
@@ -1594,33 +1653,6 @@ textarea.form-input::-webkit-realizer {
   }
   .article-title {
     padding-bottom: 15px
-  }
-  .filter-select-box {
-    display: none
-  }
-  .filter-list {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 25px;
-    padding-left: 5px;
-    margin-bottom: 30px
-  }
-  .filter-item button {
-    color: var(--light-gray);
-    font-size: var(--fs5);
-    transition: var(--transition1);
-    text-decoration: underline;
-    text-decoration-color: transparent
-  }
-  .filter-item button:focus,
-  .filter-item button:hover {
-    color: #fff;
-    text-decoration-color: #fff
-  }
-  .filter-item button.active {
-    color: var(--orange-yellow-crayola);
-    text-decoration: none
   }
   .blog-posts-list,
   .project-list {
