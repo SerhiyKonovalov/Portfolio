@@ -12,6 +12,11 @@
 		</image:image>
 
 		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/crypgo.webp</image:loc>
+			<image:caption>Односторінковий сайт</image:caption>
+			<image:title>Crypgo</image:title>
+		</image:image>
+		<image:image>
 			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/zamok-panoramnuy.webp</image:loc>
 			<image:caption>Корпоративний сайт</image:caption>
 			<image:title>Замок Панорамний</image:title>
