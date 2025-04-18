@@ -325,5 +325,9 @@
             if (detectedLang === "uk" || detectedLang === "en") localStorage.setItem("userLanguage", detectedLang);
         }
     }));
+    //! Current year
+        document.addEventListener("DOMContentLoaded", (function() {
+        document.getElementById("current-year").textContent = (new Date).getFullYear();
+    }));
     window["FLS"] = false;
 })();
