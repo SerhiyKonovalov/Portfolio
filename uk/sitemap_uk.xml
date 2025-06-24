@@ -12,6 +12,16 @@
 		</image:image>
 
 		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/cosmic-tourism.webp</image:loc>
+			<image:caption>Креативний сайт</image:caption>
+			<image:title>Cosmic Tourism</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/real-estate.webp</image:loc>
+			<image:caption>Односторінковий сайт</image:caption>
+			<image:title>Real Estate</image:title>
+		</image:image>
+		<image:image>
 			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/crypgo.webp</image:loc>
 			<image:caption>Односторінковий сайт</image:caption>
 			<image:title>Crypgo</image:title>
