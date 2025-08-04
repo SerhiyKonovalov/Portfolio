@@ -12,6 +12,11 @@
 		</image:image>
 
 		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/planto.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Planto</image:title>
+		</image:image>
+		<image:image>
 			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/cosmic-tourism.webp</image:loc>
 			<image:caption>Creative site</image:caption>
 			<image:title>Cosmic Tourism</image:title>
