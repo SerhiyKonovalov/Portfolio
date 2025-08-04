@@ -12,6 +12,11 @@
 		</image:image>
 
 		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/planto.webp</image:loc>
+			<image:caption>Односторінковий сайт</image:caption>
+			<image:title>Planto</image:title>
+		</image:image>
+		<image:image>
 			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/cosmic-tourism.webp</image:loc>
 			<image:caption>Креативний сайт</image:caption>
 			<image:title>Cosmic Tourism</image:title>
