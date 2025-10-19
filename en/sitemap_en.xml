@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://serhiykonovalov-portfolio.netlify.app/en</loc>
+		<lastmod>2025-02-22</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/avatar.webp</image:loc>
+			<image:caption>Avatar portfolio</image:caption>
+			<image:title>Avatar</image:title>
+		</image:image>
+
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/planto.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Planto</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/cosmic-tourism.webp</image:loc>
+			<image:caption>Creative site</image:caption>
+			<image:title>Cosmic Tourism</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/real-estate.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Real Estate</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/crypgo.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Crypgo</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/zamok-panoramnuy.webp</image:loc>
+			<image:caption>Corporate site</image:caption>
+			<image:title>Zamok Panoramnuy</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/growfy.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Growfy</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/nltu-design.webp</image:loc>
+			<image:caption>Corporate site</image:caption>
+			<image:title>NLTU department of Design</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/home-services.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Home Services</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/hair-stylist.webp</image:loc>
+			<image:caption>Creative site</image:caption>
+			<image:title>Hair Stylist</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/farm-vest.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>FarmVest</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/funiro.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Funiro</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/smart-space.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>SmartSpace</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/relvise.webp</image:loc>
+			<image:caption>Landing Page</image:caption>
+			<image:title>Relvise</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://serhiykonovalov-portfolio.netlify.app/img/portfolio/ciclo.webp</image:loc>
+			<image:caption>Creative site</image:caption>
+			<image:title>CICLO</image:title>
+		</image:image>
+	</url>
+</urlset>
