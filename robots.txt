@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://serhiykonovalov-portfolio.netlify.app/sitemap.xml
+Sitemap: https://serhiykonovalov-portfolio.netlify.app/en/sitemap_en.xml
+Sitemap: https://serhiykonovalov-portfolio.netlify.app/uk/sitemap_uk.xml
